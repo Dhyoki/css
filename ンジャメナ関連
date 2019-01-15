@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CSS</title>
+  <style>
+    h1 {
+      font-size: 80px;
+      color: darkGreen;
+    }
+
+    .font-1 {
+      font-family: serif;
+    }
+
+    .font-1 {
+      font-family: sans-serif;
+    }
+
+    .weight-1 {
+      font-weight: normal;
+    }
+
+    .weight-1 {
+      font-weight: bold;
+    }
+
+    .border-1 {
+      border: 1px solid black;
+      padding: 50px;
+    }
+
+    .border-2 {
+      border: 1px dashed red;
+      padding: 50px;
+      margin: 60px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>ンジャメナ</h1>
+  <p>これはアフリカにある国チャドの首都です。</p>
+  <h2>ンジャメナの地理</h2>
+  <p>ンジャメナの地理について。</p>
+  <ul>
+    <li>シャリ川</li>
+    <li>ロゴーヌ川</li>
+  </ul>
+
+  <p class="font-1">フォント(セリフ体)</p>
+  <p class="font-2">フォント(サンセリフ体)</p>
+
+  <p class="weight-1">フォントウェイト (normal)</p>
+  <p class="weight-2">フォントウェイト (bold)</p>
+
+  <div class="border-1">枠線（黒の実線）と余白（padding: 30px0px）</div>
+  <div class="border-2">枠線（赤の破線）と余白（padding: 50px, margin: 50px0px）</div>
+</body>
+
+</html>
